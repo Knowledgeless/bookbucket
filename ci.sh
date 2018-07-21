@@ -83,10 +83,10 @@ echo
 ## CREATE support dir for developers
 ## CREATE solve-issues
 
-# 2018.July18
-## Add bookbucket-2018-july-18.sql
+# 2018.July21
+## Port issue solved
 
-git commit -m "Add bookbucket-2018-july-18.sql"
+git commit -m "Port issue solved"
 
 ############
 # Step: 05 #

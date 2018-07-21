@@ -1,0 +1,21 @@
+1. Stop all running services on XAMPP. Open XAMPP Control Panel to achieve this.
+
+2. Then go to the XAMPP installation folder. Usually it's in:
+
+C:/apache/conf/httpd.conf or [XAMPP Installation Folder]/apache/conf/httpd.conf.
+
+3. Open up the file httpd.conf.
+
+4. Go to the line where is say "Listen 80". By default is it port 80. But then again it could be something else if someone  has change it previously. It is around line 47 in the file. Now change it "Listen 8080".
+
+5. Now you also need to change the line ServerName localhost: 8080 to the new port. It is around line 181 in the file.
+
+That should work if not then,
+
+run XAMPP click on config
+find 
+click button Service and port setting
+
+apace port make it 8080
+
+done
