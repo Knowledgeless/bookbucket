@@ -25,8 +25,8 @@
 echo
 echo [ Done ]  Initializing who am I.
 
-git config --global user.email "ariful117601@gmail.com"
-git config --global user.name "arifcseewu"
+git config --global user.email "it.khansunny@gmail.com"
+git config --global user.name "itkhansunny"
 
 ############
 # Step: 02 #
@@ -83,10 +83,10 @@ echo
 ## CREATE support dir for developers
 ## CREATE solve-issues
 
-# 2018.July21
-## Port issue solved
+# 2018.July26
+## First commit
 
-git commit -m "Port issue solved"
+git commit -m "First commit"
 
 ############
 # Step: 05 #
@@ -107,7 +107,7 @@ git remote -v
 echo
 echo [ Done ]  Updating remote URL.
 
-git remote set-url origin https://github.com/arifcseewu/bookbucket
+git remote set-url origin https://github.com/itkhansunny/bookbucket
 
 ############
 # Step: 07 #
@@ -128,5 +128,5 @@ echo 08. Pushing local codebase to remote repo...Repo-to-repo collaboration: git
 echo
 git push origin master
 
-git push --all -f https://github.com/arifcseewu/bookbucket
+git push --all -f https://github.com/itkhansunny/bookbucket
 
