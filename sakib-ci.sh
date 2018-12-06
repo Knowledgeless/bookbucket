@@ -25,8 +25,8 @@
 echo
 echo [ Done ]  Initializing who am I.
 
-git config --global user.email "it.khansunny@gmail.com"
-git config --global user.name "itkhansunny"
+git config --global user.email "sakib.rahman.0000@gmail.com"
+git config --global user.name "sakib-rahman-bangladesh"
 
 ############
 # Step: 02 #
@@ -55,38 +55,12 @@ echo
 #############################
 ## follow up simple commit ##
 #############################
-## Rename 1_GAME_CHEATSHEET_JAVA.md to 1_GAME_DEV_CHEATSHEET_JAVA.md
 ## Create file.ext
 ## Update file.ext
 ## Delete file.ext
 ## Solved issues
-## Default: Commit skipped|forgotten
-## 🔴 TODO: Good update but fix errors
-## 💚 localhost: cr2018.Mar24.1.5.0
-## 🔴 production-server issue v1.5.3
-## 💚 live upto v1.5.3
-## UPLOAD: issue images
 
-# 2018.Apr20
-## ENUM: My first commit at bookbucket: 2018.Apr20
-
-# 2018.Apr26
-## GIVEN tasks to enum
-
-# 2018.Apr28
-## ADD samples files: policy + user agreement
-
-# 2018.May1
-## ASSIGNED task to enum: front-end understanding
-
-# 2018.May2
-## CREATE support dir for developers
-## CREATE solve-issues
-
-# 2018.July26
-## First commit
-
-git commit -m "First commit"
+git commit -m "Moved to Gitlab"
 
 ############
 # Step: 05 #
@@ -107,7 +81,7 @@ git remote -v
 echo
 echo [ Done ]  Updating remote URL.
 
-git remote set-url origin https://github.com/itkhansunny/bookbucket
+git remote set-url origin https://github.com/sakib-rahman-bangladesh/rent-book-device
 
 ############
 # Step: 07 #
@@ -128,5 +102,5 @@ echo 08. Pushing local codebase to remote repo...Repo-to-repo collaboration: git
 echo
 git push origin master
 
-git push --all -f https://github.com/itkhansunny/bookbucket
+git push --all -f https://github.com/sakib-rahman-bangladesh/rent-book-device
 
